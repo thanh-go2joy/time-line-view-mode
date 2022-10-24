@@ -1,0 +1,287 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+.el-popper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit; /* Thay đổi font cho global */
+  vertical-align: baseline;
+  text-decoration: none;
+}
+ul {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+html {
+  font-size: 14px;
+  height: 100%;
+}
+
+body {
+  font-family: Muli;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.el-table {
+  .cell {
+    word-break: break-word;
+  }
+  th {
+    font-weight: 900;
+    color: #252222;
+  }
+}
+p.text-word-break {
+  word-break: break-word;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+a, a:active {
+  color: #007bff;
+}
+.table-components {
+  overflow-x: scroll;
+  th,
+  td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ebeef5;
+    text-align: left;
+  }
+  .el-form--inline {
+    text-align: left;
+    .el-form-item {
+      margin-right: 12px;
+    }
+  }
+
+  .custom-scroll-bar-x {
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      margin: 5px 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      width: 12px;
+      background: #999999;
+    }
+  }
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    width: 12px;
+    background: #999999;
+  }
+}
+
+.pagination {
+  text-align: left;
+  margin-top: 12px;
+}
+.operations {
+  padding: 12px;
+}
+#preview {
+  width: 200px;
+  border: 1px solid;
+  height: 100px;
+  display: inline-table;
+  img {
+    max-width: 200px;
+    display: inline;
+    height: auto;
+    object-fit: scale-down;
+  }
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+[class*='el-col-'] {
+  padding: 10px;
+  text-align: left;
+}
+.text-danger {
+  color: #f56c6c;
+}
+.bold {
+  font-weight: bold;
+}
+.disappear {
+  display: none !important;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.link-disabled,
+.link-disabled:active,
+.link-disabled:visited {
+  pointer-events: none;
+  color: #786b6a;
+}
+.tag-custom {
+  margin-right: 12px;
+}
+.disable-label {
+  .el-radio__label {
+    display: none;
+  }
+}
+.padding-none {
+  padding: 0px;
+}
+.el-form-item.is-required {
+  & > .el-form-item__label::after,
+  & .el-form-item__label-wrap > .el-form-item__label::after {
+    content: '*';
+    color: #f56c6c;
+    margin-left: 4px;
+  }
+}
+.el-form-item.is-required:not(.is-no-asterisk)
+.el-form-item__label-wrap>.el-form-item__label:before,
+.el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+    content: '';
+   color: #F56C6C;
+   margin-right: 4px;
+}
+@media (max-width: 425px) {
+  .my-popover {
+    .options {
+      left: unset;
+      transform: unset;
+    }
+  }
+}
+@media (max-width: 635px) {
+  .custom-pagination {
+    .el-pagination__jump,
+    .el-pagination__sizes {
+      display: block !important;
+      margin: 8px 0;
+    }
+  }
+  .el-range-editor{
+    width: 80% !important;
+  }
+  .custom-date-range.el-date-range-picker{
+    width: 80% !important;
+    left: 10% !important;
+  }
+  .custom-date-range .el-date-range-picker .el-picker-panel__body{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .custom-date-range .el-date-range-picker__content{
+    float: unset !important;
+    width: 100% !important;
+  }
+  .custom-date-range.el-date-range-picker  .el-picker-panel__body{
+    min-width: unset;
+  }
+  .el-menu {
+    height: unset !important;
+  }
+}

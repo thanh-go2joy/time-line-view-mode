@@ -1,0 +1,27 @@
+export default {
+  name: 'Name',
+  mobile: 'Mobile',
+  code: 'Code',
+  gender: 'Gender',
+  email: 'Email',
+  birthday: 'Birthday',
+  address: 'Address',
+  totalOfIntroduction: 'Total of introduction',
+  hotelName: 'Hotel name',
+  saleInfomation: 'Sale infomation',
+  operations: 'operations',
+  hotelEmployee: 'Hotel employee',
+  totalPay: 'Total pay',
+  totalNotPay: 'Total not pay',
+  nickName: 'Nick name',
+  loginBy: 'Login by',
+  registerTime: 'Register time',
+  registerAddress: 'Register address',
+  mobileId: 'Mobile ID',
+  os: 'OS',
+  pay: 'Pay',
+  // Validation
+  requiredBirthday: 'The birthday field is required',
+  requiredMobile: 'The mobile field is required',
+  requiredName: 'The name field is required'
+}

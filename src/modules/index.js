@@ -1,0 +1,16 @@
+const initRouter = async function () {
+  await import('./activities')
+  await import('./home-display')
+  await import('./hotels')
+  await import('./profile')
+  await import('./users')
+  await import('./marketing')
+  await import('./bookings')
+  await import('./mileage-point')
+  await import('./settings')
+  await import('./account-mgt')
+  await import('./service-agreement')
+  await import('./tracking-mgt')
+  await import('./page-not-found')
+}
+initRouter()

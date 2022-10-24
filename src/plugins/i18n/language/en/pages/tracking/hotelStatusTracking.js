@@ -1,0 +1,22 @@
+export default {
+  region: 'REGIONS',
+  total: 'TOTAL',
+  start_date: 'START DATE',
+  end_date: 'END DATE',
+  total1234: 'Total (1) + (2) + (3) + (4)',
+  accumulation: 'Accumulation',
+  actual_amount: 'Actual Amount',
+  waiting: 'Waiting (1)',
+  contracted: 'Contracted (2)',
+  suspended: 'Suspended (3)',
+  terminated: 'Terminated (4)',
+  displayed: 'Displayed',
+  trial: 'Trial',
+  datefrom: 'Date From',
+  hotel_name: 'Hotel Name',
+  number_of_signup: 'Number of Sign-up',
+  checkin_by_register: 'Checkin by register',
+  dateFrom: 'Date From',
+  startDate: 'Start date',
+  endDate: 'End date'
+}

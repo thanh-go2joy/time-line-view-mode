@@ -1,0 +1,5 @@
+import './boosting-list'
+import './boosting-details'
+import './boosting-edit'
+import './boosting-create'
+import './list-hotel'

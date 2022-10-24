@@ -1,0 +1,23 @@
+export default {
+  region: 'VÙNG MIỀN',
+  total: 'TỔNG CỘNG',
+  start_date: 'Ngày bắt đầu',
+  end_date: 'Ngày kết thúc',
+  total1234: 'Tổng cộng(1)+(2)+(3)+(4)',
+  accumulation: 'Tích lũy',
+  actual_amount: 'Thực có',
+  waiting: 'Chờ duyệt(1)',
+  contracted: 'Hợp đồng(2)',
+  suspended: 'Treo(3)',
+  terminated: 'Dừng hợp đồng (4)',
+  displayed: 'Đã duyệt',
+  trial: 'Dùng thử',
+  datefrom: 'Từ ngày',
+  to: 'Đến',
+  hotel_name: 'Tên khách sạn',
+  number_of_signup: 'Số lượng đăng ký',
+  checkin_by_register: 'Checkin bằng đăng ký',
+  dateFrom: 'Từ ngày',
+  startDate: 'Ngày bắt đầu',
+  endDate: 'Ngày kết thúc'
+}

@@ -1,0 +1,22 @@
+export default {
+  nickName: 'Nick name',
+  email: 'Email',
+  mobile: 'Di động',
+  effectivePoint: 'Điểm dùng được',
+  earnedPoint: 'Điểm kiếm được',
+  usedPoint: 'Điểm đã dùng',
+  expiredPoint: 'Điểm hết hạn',
+  earnedFirstTime: 'Thời gian đầu kiếm được',
+  userdPoint: 'Điểm đã dùng',
+  mileageName: 'Tên',
+  type: 'Loại',
+  hotelName: 'Tên khách sạn',
+  bookingNo: 'Mã đặt phòng',
+  numberOfPoints: 'Điểm',
+  amount: 'Giá trị',
+  expireTime: 'Hết hạn',
+  createTime: 'Thời gian tạo',
+  get: 'Nhận',
+  use: 'Sử dụng',
+  expired: 'Hết hạn'
+}

@@ -1,0 +1,30 @@
+export default {
+  title: 'Tiêu đề',
+  targetType: 'Đối tượng',
+  createStaff: 'NV khởi tạo',
+  sendTo: 'Gửi đến',
+  totalSend: 'Tổng gửi đi (Ios-Android)',
+  totalView: 'Tổng xem (Ios-Android)',
+  conversion: 'Chuyển đổi (Ios-Android)',
+  numSent: 'Số lần đã gửi',
+  createTime: 'Thời gian tạo',
+  sentTime: 'Thời gian gửi',
+  status: 'Trạng thái',
+  operations: 'Thao tác',
+  type: 'Loại thông báo',
+  subTitle: 'Nội dung tiêu đề',
+  filterByLocation: 'Lọc theo vị trí',
+  lastOpenApp: 'Lần cuối mở app',
+  rightNow: 'Ngay bây giờ',
+  schedule: 'Lịch gửi',
+  content: 'Nội dung',
+  noticeType: 'Loại thông báo',
+  titleIcon: 'Icon cho tiêu đề',
+  PleaseChooseExcelFile: 'Vui lòng chọn excel(.xslx)',
+  ChooseArea: 'Chọn khu vực',
+
+  // Validation
+  requiredTitle: 'Vui lòng nhập tiêu đề',
+  requiredTargetSn: 'Vui lòng chọn dối tượng',
+  requiredSchedule: 'Vui lòng chọn lịch gửi'
+}

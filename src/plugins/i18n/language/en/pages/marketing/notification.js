@@ -1,0 +1,30 @@
+export default {
+  title: 'Title',
+  targetType: 'Target type',
+  createStaff: 'Create staff',
+  sendTo: 'Send to',
+  totalSend: 'Total send (Ios-Android)',
+  totalView: 'Total view (Ios-Android)',
+  conversion: 'conversion (Ios-Android)',
+  numSent: 'Num sent',
+  createTime: 'Create time',
+  sentTime: 'Sent time',
+  status: 'Status',
+  operations: 'Operations',
+  type: 'Notification type',
+  subTitle: 'Sub Title',
+  filterByLocation: 'Filter by location',
+  lastOpenApp: 'Last open app',
+  rightNow: 'Right now',
+  schedule: 'Schedule',
+  content: 'Content',
+  noticeType: 'Notice type',
+  titleIcon: 'Title Icon',
+  PleaseChooseExcelFile: 'Please choose excel(.xslx)',
+  ChooseArea: 'Choose area',
+
+  // Validation
+  requiredTitle: 'The title field is required',
+  requiredTargetSn: 'The target sn field is required',
+  requiredSchedule: 'The schedule date field is required'
+}

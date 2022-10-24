@@ -1,0 +1,21 @@
+export default {
+  roleName: 'Tên quyền',
+  subSupperAdmin: 'Sub supper admin',
+  saleAdmin: 'Sale admin',
+  headOfMkt: 'Head of MKT',
+  accountant: 'Accountant',
+  saleFreelancer: 'Sale freelancer',
+  developer: 'Developer',
+  headOfBiz: 'Head of biz',
+  marketing: 'Marketing',
+  business: 'Business',
+  system: 'System',
+  functionName: 'Nhóm chức năng',
+  areaRestriction: 'Hạn chế khu vực',
+  view: 'Xem',
+  create: 'Tạo',
+  modify: 'Sửa',
+  delete: 'Xóa',
+  export: 'Xuất file',
+  special: 'Đặc quyền'
+}

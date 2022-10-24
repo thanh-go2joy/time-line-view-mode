@@ -1,0 +1,21 @@
+export default {
+  roleName: 'Role name',
+  subSupperAdmin: 'Sub supper admin',
+  saleAdmin: 'Sale admin',
+  headOfMkt: 'Head of MKT',
+  accountant: 'Accountant',
+  saleFreelancer: 'Sale freelancer',
+  developer: 'Developer',
+  headOfBiz: 'Head of biz',
+  marketing: 'Marketing',
+  business: 'Business',
+  system: 'System',
+  functionName: 'Function name',
+  areaRestriction: 'Area restriction',
+  view: 'View',
+  create: 'Create',
+  modify: 'Modify',
+  delete: 'Delete',
+  export: 'Export',
+  special: 'Special'
+}
