@@ -5,8 +5,8 @@
 # 👋 (copy + paste your .gitignore file contents here) 👋
 node_modules
 .DS_Store
-dist
-dist-ssr
+# dist
+# dist-ssr
 *.local
 cypress/screenshots
 cypress/videos
@@ -19,7 +19,7 @@ package-lock.json
 shrinkwrap.json
 
 # Build outputs
-dist
+# dist
 lib
 
 # Prettier reformats code blocks inside Markdown, which affects rendered output
