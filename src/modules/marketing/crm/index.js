@@ -1,5 +1,0 @@
-import './list'
-import './create'
-import './detail'
-import './edit'
-import './mobile-list'

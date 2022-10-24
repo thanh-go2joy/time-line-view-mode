@@ -1,5 +1,0 @@
-import './banner-list'
-import './banner-details'
-import './banner-create'
-import './banner-edit'
-import './banner-setting'

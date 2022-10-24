@@ -1,5 +1,0 @@
-import './apply-for-promo'
-import './create'
-import './edit'
-import './list'
-import './setting-display'
