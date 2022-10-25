@@ -8,7 +8,8 @@
         "stag": "vue-cli-service build --mode staging",
         "uat": "vue-cli-service build --mode uat",
         "test:unit": "vue-cli-service test:unit",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "start": "node server.js"
     },
     "dependencies": {
         "@chenfengyuan/vue-qrcode": "^1.0.2",
@@ -18,7 +19,9 @@
         "core-js": "^3.6.5",
         "el-table-draggable": "^1.4.12",
         "element-ui": "2.15.7",
+        "express": "^4.18.2",
         "scrollmagic": "^2.0.8",
+        "serve-static": "^1.15.0",
         "vue": "^2.6.11",
         "vue-image-upload-resize": "^2.3.0",
         "vue-router": "3.5.2",
