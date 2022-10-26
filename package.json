@@ -8,8 +8,7 @@
         "stag": "vue-cli-service build --mode staging",
         "uat": "vue-cli-service build --mode uat",
         "test:unit": "vue-cli-service test:unit",
-        "lint": "vue-cli-service lint",
-        "start": "node server.js"
+        "lint": "vue-cli-service lint"
     },
     "dependencies": {
         "@chenfengyuan/vue-qrcode": "^1.0.2",
