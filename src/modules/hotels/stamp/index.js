@@ -1,5 +1,0 @@
-import './stamp-create'
-import './stamp-edit'
-import './stamp-details'
-import './stamp-detail-total-user'
-import './stamp-list'
